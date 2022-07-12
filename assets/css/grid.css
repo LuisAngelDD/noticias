@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 10px;
+    justify-content: center; 
+    margin: 0 auto;
+}
+.grid-item {
+    width: 100%;
+    border-radius: 15px;
+    justify-content: center; 
+    object-fit: cover;
+}
+.grid-item:hover {
+    filter: opacity(0.9);
+}

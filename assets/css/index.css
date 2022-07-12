@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+}
+h1,h2,h3{
+    text-align: center;
+}
+header{
+    height: 100px;
+    background-color: brown;
+}
+footer{
+    height: 80px;
+    background-color: blueviolet;
+}
